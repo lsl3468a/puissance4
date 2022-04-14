@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if(joueur1.getText().toString().equals("")|| joueur2.getText().toString().equals("")){
                 //Message d'erreur
             } else {
+                int scoreJ1 = 0;
+                int scoreJ2 = 0;
                 Intent inte = new Intent(this, jeu.class);
                 inte.putExtra("Joueur1", joueur1.getText().toString());
                 inte.putExtra("Joueur2", joueur2.getText().toString());

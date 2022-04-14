@@ -25,7 +25,7 @@
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintHorizontal_bias="0.217"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -47,7 +47,7 @@
         android:id="@+id/textView4"
         android:layout_width="102dp"
         android:layout_height="35dp"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="68dp"
         android:layout_marginTop="36dp"
         android:text="Joueur 2 :"
         android:textColor="#000000"
@@ -65,7 +65,7 @@
         android:inputType="textPersonName"
         android:text="Name"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/joueur1" />
 
